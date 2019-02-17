@@ -5,7 +5,7 @@ import math
 
 def saving_money(money_per_week,increase_money,sum_weeks):
     #存钱函数
-    maonry_list = []
+    maonry_list = []   #列表记录每次的存钱金额
     for i in range(sum_weeks):
         maonry_list.append(money_per_week)
         saving = math.fsum(maonry_list)
