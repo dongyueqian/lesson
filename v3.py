@@ -2,7 +2,9 @@
     单独的存钱函数
 """
 import math
+
 def saving_money(money_per_week,increase_money,sum_weeks):
+    #存钱函数
     maonry_list = []
     for i in range(sum_weeks):
         maonry_list.append(money_per_week)
